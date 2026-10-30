@@ -1,0 +1,11 @@
+# 批处理文件必须逐字节保留 CRLF 行尾，否则 cmd.exe 解析 goto/label 会出错。
+# -text 让 git 完全不做换行转换：仓库里存的就是 CRLF，raw 下载/解压出来也是 CRLF。
+*.bat -text
+*.cmd -text
+
+# 文本文件统一 LF
+*.md   text eol=lf
+*.txt  text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+LICENSE text eol=lf

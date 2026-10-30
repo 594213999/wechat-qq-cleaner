@@ -1,0 +1,21 @@
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Logs produced by the tool itself
+微信QQ清理_*.log
+微信QQ扫描_*.log
+*.log
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Temp / scratch
+*.tmp
+~$*
